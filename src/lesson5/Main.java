@@ -12,6 +12,7 @@ import java.util.function.IntUnaryOperator;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("java");
 //        ThreadFactory factory = new ThreadFactory() {
 //            @Override
 //            public Thread newThread(Runnable r) {
@@ -34,6 +35,7 @@ public class Main {
                 new Callable<String>() {
                     @Override
                     public String call() throws Exception {
+                        System.out.println("java");
                         System.out.println("1");
                         Thread.sleep(1000);
                         System.out.println("1 end");
